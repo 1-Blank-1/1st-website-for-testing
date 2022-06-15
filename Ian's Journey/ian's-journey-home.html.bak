@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+
+<meta name="description" content="This is a website dedicated to tell the story of Ian's life, especially his hobbies.">
+<meta property="og:title" content="Ian's Journey">
+<meta property="og:description" content="This is Ian's Life">
+<meta property="og:image" content="images/meme.jpg">
+
+<link rel="icon" type="image/x-icon" href="images/blank-logo.png">
+<link rel="stylesheet" href="styles/styles-for-home.css">
+
+
+<title>Ian's Journey</title>
+</head>
+
+<nav>
+ <div class="whole_navigation">
+	<div class="nav left">
+	</div>
+	<div class="nav right">
+
+		<ul class="navigation_bars">
+			<li><span id="HOME" class="navigation_texts">HOME</span></li>
+			<li><span id="CAREER_AND_EDUCATION" class="navigation_texts">CAREER AND EDUCATION</li>
+			<li><span id="PROJECTS" class="navigation_texts">PROJECTS</li>
+			<li><a href="gaming-hobby/gaming-hobby.html"><span id="GAMING_HOBBY" class="navigation_texts">GAMING HOBBY</a></li>
+			<li><span id="BLOGS" class="navigation_texts">BLOGS</li>
+			<li><span id="CONTACT" class="navigation_texts">CONTACT</li>
+		</ul>
+
+	</div>
+ </div>
+</nav>
+
+
+<hr>
+
+
+<body>
+	<div class="body_placeholder">
+		<div class="body_text">
+		Under construction.
+			
+		</div>
+	</div>
+</body>
+
+</html>

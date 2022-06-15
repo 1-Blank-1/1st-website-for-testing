@@ -1,0 +1,96 @@
+html {
+	font-family: Arial;
+	font-size: calc(0.32vw + 3.84px);
+}
+
+nav {
+	margin-bottom: 111em;
+	display: block;
+	height: min-content;
+}
+
+.whole_navigation{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+
+}
+
+
+.navigation_bars{
+	display: flex;
+	justify-content: space-evenly;
+	block-size: 11rem;
+
+
+}
+
+.navigation_list {
+	display: inline-block;
+	position: relative;
+	top: 100%;
+	font-weight: bold;
+	list-style-type: none;
+	height: min-content;
+	
+}
+
+
+.navigation_texts {
+	font-size: 1.6rem;
+
+}
+
+
+.navigation_texts:hover {
+background: #C8EDF3;
+color: #303249;
+border-radius: 1rem;
+}
+
+body {
+	/*setting up the background properties*/
+	background-color: #ffffff;
+
+}
+
+hr {
+	display: block;
+	margin-bottom: 5rem;
+	background-color: #8f8c8c;
+	height: 0.3rem;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.body_placeholder{
+	height: 800px;
+	border: 5px solid black;
+	
+}
+
+.body_text{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: max-content;
+	font-size: 4.8rem;
+}
+
+nav {
+	background-color: #C3DBFF;
+	background-image: url("../images/blank-logo.png"); /*logo*/
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 3% 50%;
+	background-size: 12rem 12rem;
+	height: 15rem;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+@media (max-width: 620px){
+	.navigation_list {max-width: 60px; width: min-content;}
+	nav {height: 18rem;}
+}
