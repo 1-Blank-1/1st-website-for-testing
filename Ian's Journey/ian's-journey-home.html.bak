@@ -22,12 +22,12 @@
 	<div class="nav right">
 
 		<ul class="navigation_bars">
-			<li><span id="HOME" class="navigation_texts">HOME</span></li>
-			<li><span id="CAREER_AND_EDUCATION" class="navigation_texts">CAREER AND EDUCATION</li>
-			<li><span id="PROJECTS" class="navigation_texts">PROJECTS</li>
-			<li><a href="gaming-hobby/gaming-hobby.html"><span id="GAMING_HOBBY" class="navigation_texts">GAMING HOBBY</a></li>
-			<li><span id="BLOGS" class="navigation_texts">BLOGS</li>
-			<li><span id="CONTACT" class="navigation_texts">CONTACT</li>
+			<li class="navigation_list"><span id="HOME" class="navigation_texts">HOME</span></li>
+			<li class="navigation_list"><span id="CAREER_AND_EDUCATION" class="navigation_texts">CAREER AND EDUCATION</li>
+			<li class="navigation_list"><span id="PROJECTS" class="navigation_texts">PROJECTS</li>
+			<li class="navigation_list"><a href="gaming-hobby/gaming-hobby.html"><span id="GAMING_HOBBY" class="navigation_texts">GAMING HOBBY</a></li>
+			<li class="navigation_list"><span id="BLOGS" class="navigation_texts">BLOGS</li>
+			<li class="navigation_list"><span id="CONTACT" class="navigation_texts">CONTACT</li>
 		</ul>
 
 	</div>
