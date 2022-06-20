@@ -41,14 +41,18 @@
 <body>
 	<div class="body_placeholder">
 		<div class="body_text">
-		This is the first website I made, testing my learnings on HTML and CSS.
-		I mainly focused on:
-		1. Trying out the basics in HTML and CSS.
-		2. Creating lists.
-		3. Playing with divs and borders to make responsive placeholder images.
-		3. Creating Navigation Bar.
-		4. Making the pages responsive.
-			
+		<span style="font-size: 4rem; font-weight: bold">This is the first website I made, testing my learnings on HTML and CSS.</span>
+		<br>
+		<br>
+		<br>
+		<pre> I mainly focused on:</pre>
+		<ol>
+		<li>Trying out the basics in HTML and CSS.</li>
+		<li>Creating lists.</li>
+		<li>Playing with <code>&lt;divs&gt;</code> and <code>&lt;borders&gt;</code> to make responsive placeholder images.</li>
+		<li>Creating Navigation Bar.</li>
+		<li>Making the pages responsive.</li>
+		</ol>	
 		</div>
 	</div>
 </body>
