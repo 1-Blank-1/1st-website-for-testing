@@ -142,20 +142,21 @@ nav {
 
 .navigation_texts {
 	font-size: 1.6rem;
+	padding: 0.5rem;
 
 }
 
 
 .navigation_texts:hover {
 background: #C8EDF3;
-color: #303249;
 border-radius: 1rem;
 }
 
 body {
 	/*setting up the background properties*/
-	background-color: #f5f5f5;
-
+	background-color: #f0ffffcc;
+	margin: 0px;
+	padding: 0px;
 }
 
 hr {
@@ -182,8 +183,12 @@ hr {
 	font-size: 4.8rem;
 }
 
+#body-section{
+	margin-inline:1rem;
+}
+
 nav {
-	background-color: #C3DBFF;
+	background-color: #6394dd;
 	background-image: url("../images/blank-logo.png"); /*logo*/
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -207,9 +212,8 @@ nav {
 
 
 body {
-	background: #ffffff no-repeat right top/cover;
+	background: f1fcfccc no-repeat right top/cover;
 	background-attachment: scroll; /*fixed scroll local */
-	font-size: 1.6rem;
 }
 
 figure{

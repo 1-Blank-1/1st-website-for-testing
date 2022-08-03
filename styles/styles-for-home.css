@@ -1,12 +1,9 @@
 html {
 	font-family: Arial;
 	font-size: calc(0.32vw + 3.84px);
-}
-
-nav {
-	margin-bottom: 111em;
-	display: block;
-	height: min-content;
+	background-color: #f0ffffcc;
+	padding: 0px;
+	margin: 0px;
 }
 
 .whole_navigation{
@@ -37,20 +34,25 @@ nav {
 
 .navigation_texts {
 	font-size: 1.6rem;
+	padding: 0.5rem;
 
 }
 
 
 .navigation_texts:hover {
 background: #C8EDF3;
-color: #303249;
 border-radius: 1rem;
 }
 
 body {
-	/*setting up the background properties*/
-	background-color: #ffffff;
+	background-color: #f1fcfccc;
+	padding: 0px;
+	margin: 0px;
 
+}
+
+#body-section{
+	margin-inline:1rem;
 }
 
 hr {
@@ -65,6 +67,7 @@ hr {
 .body_placeholder{
 	height: 800px;
 	border: 5px solid black;
+	margin: 1rem;
 	
 }
 
@@ -82,7 +85,7 @@ hr {
 }
 
 nav {
-	background-color: #C3DBFF;
+	background-color: #6394dd;
 	background-image: url("../images/blank-logo.png"); /*logo*/
 	background-repeat: no-repeat;
 	background-attachment: scroll;
