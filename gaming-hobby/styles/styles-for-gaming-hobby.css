@@ -72,35 +72,6 @@ inline-size: min-content;
 	font-size: 1.6rem;
 }
 
-@media (max-width: 620px) {
-.ToC_introduction{
-	display: flex;
-	flex-direction: column;
-	padding: 1rem;
-}
-
-.Toc_one_part{
-	margin: 2rem;
-	height: 300px;
-}
-
-.ToC_image {
-	width: 400px;
-	height: 240px;
-	border: 5px solid black;
-	margin-right: 25px;
-	background-color: #5e9cf1;
-	flex-basis: 240px;
-	flex-shrink: 0;
-	flex-grow: 0;
-
-}
-
-.ToC_description {
-	font-size: 1.6rem;
-	padding: 0.5rem;
-}
-}
 
 /* TABLE OF CONTENTS --------END */
 
@@ -197,14 +168,8 @@ nav {
 	height: 15rem;
 	padding: 0px;
 	margin: 0px;
+
 }
-
-
-@media (max-width: 620px){
-	.navigation_list {max-width: 60px; width: min-content;}
-	nav {height: 18rem;}
-}
-
 
 
 /* CODES FOR THE NAVIGATION MENU --------END */
@@ -212,7 +177,7 @@ nav {
 
 
 body {
-	background: f1fcfccc no-repeat right top/cover;
+	background: #f1fcfccc no-repeat right top/cover;
 	background-attachment: scroll; /*fixed scroll local */
 }
 
@@ -241,6 +206,43 @@ figcaption {
 }
 
 @media (max-width: 620px) {
+
+	.ToC_introduction{
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+	}
+	
+	.Toc_one_part{
+		margin: 2rem;
+		height: 380px;
+	}
+	
+	.ToC_image {
+		width: 400px;
+		height: 240px;
+		border: 5px solid black;
+		margin-right: 25px;
+		background-color: #5e9cf1;
+		flex-basis: 240px;
+		flex-shrink: 0;
+		flex-grow: 0;
+	}
+	.ToC_title {
+		font-size: 2.4rem;
+	}
+
+	
+	.ToC_description {
+		font-size: 2.4rem;
+		padding: 0.5rem;
+	}
+
+
+	.navigation_list {max-width: 60px; width: min-content;}
+	nav {height: 18rem;}
+
+
 	img {
 	width: 90%;
 	position: relative;
@@ -260,6 +262,14 @@ figcaption {
 
 html {
 	font-family: Arial;
-	font-size: calc(0.34vw + 3.84px);
+	font-size: calc(0.32vw + 3.84px);
 }
+h3, h3 li,{
+	font-size: 2.4rem;
+}
+
+h1, h2 {
+	font-size: 2.4rem;
+}
+
 }
